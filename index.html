@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, maximum-scale=1.0">
+        
+        <!-- Css stylesheet links below -->
+        <!-- Bootstrap link -->
+        <link rel="stylesheet" href="module/css/bootstrap.css">
+        <!-- External stylesheet -->
+        <link rel="stylesheet" href="module/css/responsive.css">
+        <link rel="stylesheet" href="module/css/structure.css">
+        <link rel="stylesheet" href="module/css/style.css">
+
+        <link rel="icon" href="module/img/icon/jumialogo.png">
+
+        <style>
+            body{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 100vh;
+                overflow-y: scroll;
+                width: 100%;
+            }
+            .spinner-con{
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                padding-top: 5em;
+                height: auto;
+                justify-content: center;
+                width: 100%;
+            }
+            #container {
+                position: relative;
+                height: 240px;
+                width: 240px;
+                border-radius: 50%;
+                background: #b177db;
+            }
+            .circle1 {
+                position: relative;
+                top: 0px;
+                width: 0px;
+                height: 0px;
+                border-right: 120px solid transparent;
+                border-top: 120px solid #ffb901;
+                border-left: 120px solid transparent;
+                border-bottom: 120px solid transparent;
+                border-top-left-radius: 120px;
+                border-top-right-radius: 120px;
+                -moz-transform:rotate(320deg);
+                -webkit-transform:rotate(320deg);
+                -o-transform:rotate(320deg);
+                -ms-transform:rotate(320deg);
+            }
+            .circle2 {
+                position: absolute;
+                top: 0px;
+                width: 0px;
+                height: 0px;
+                border-right: 120px solid transparent;
+                border-top: 120px solid #7ec1db;
+                border-left: 120px solid transparent;
+                border-bottom: 120px solid transparent;
+                border-top-left-radius: 120px;
+                border-top-right-radius: 120px;
+                -moz-transform:rotate(80deg);
+                -webkit-transform:rotate(80deg);
+                -o-transform:rotate(80deg);
+                -ms-transform:rotate(80deg);
+            }
+            .circle3 {
+                position: absolute;
+                top: 0px;
+                width: 0px;
+                height: 0px;
+                border-right: 120px solid transparent;
+                border-top: 120px solid #1fac77;
+                border-left: 120px solid transparent;
+                border-bottom: 120px solid transparent;
+                border-top-left-radius: 120px;
+                border-top-right-radius: 120px;
+                -moz-transform:rotate(200deg);
+                -webkit-transform:rotate(200deg);
+                -o-transform:rotate(200deg);
+                -ms-transform:rotate(200deg);
+            }
+            /* animations */
+
+            @keyframes spin1 {
+                0% {
+                    -moz-transform:rotate(320deg);
+                    -webkit-transform:rotate(320deg);
+                    -o-transform:rotate(320deg);
+                    -ms-transform:rotate(320deg);
+                }
+                100% {
+                    -moz-transform:rotate(680deg);
+                    -webkit-transform:rotate(680deg);
+                    -o-transform:rotate(680deg);
+                    -ms-transform:rotate(680deg); 
+                }
+            }
+            @keyframes spin2 {
+                0% {
+                    -moz-transform:rotate(80deg);
+                    -webkit-transform:rotate(80deg);
+                    -o-transform:rotate(80deg);
+                    -ms-transform:rotate(80deg);
+                }
+                100% {
+                    -moz-transform:rotate(440deg);
+                    -webkit-transform:rotate(440deg);
+                    -o-transform:rotate(440deg);
+                    -ms-transform:rotate(440deg); 
+                }
+            }
+            @keyframes spin3 {
+                0% {
+                    -moz-transform:rotate(200deg);
+                    -webkit-transform:rotate(200deg);
+                    -o-transform:rotate(200deg);
+                    -ms-transform:rotate(200deg);
+                }
+                100% {
+                    -moz-transform:rotate(560deg);
+                    -webkit-transform:rotate(560deg);
+                    -o-transform:rotate(560deg);
+                    -ms-transform:rotate(560deg); 
+                }
+            }
+            #circle1{
+                animation: spin1 0.5s infinite linear;
+            }
+            #circle2{
+                animation: spin2 0.5s infinite linear;
+            }
+            #circle3{
+                animation: spin3 0.5s infinite linear;
+            }
+            .spinner-txt{
+                color: rgba(60, 64, 66, 255);
+                padding: 2em 0 0.5em 0;
+                font-size: 1em;
+                font-weight: 400;
+                text-align: center;
+            }
+            @keyframes glowing {
+                0% {
+                    background-color: rgba(226, 105, 27, 255);
+                    box-shadow: 0 0 5px rgba(226, 105, 27, 255);
+                }
+                50% {
+                    background-color: rgba(250, 136, 37, 255);
+                    box-shadow: 0 0 20px rgba(250, 136, 37, 255);
+                }
+                100% {
+                    background-color: rgba(226, 105, 27, 255);
+                    box-shadow: 0 0 5px rgba(226, 105, 27, 255);
+                }
+            }
+            .spinner-btn {
+                animation: glowing 1500ms infinite;
+            }
+            .spinner-btn{
+                height: auto;
+                font-size: 1em;
+                background: rgba(250, 136, 37, 255);
+                padding: 0.75em 3em;
+                margin-bottom: 0.5em;
+                border-radius: 0.5em;
+                cursor: pointer;
+                font-weight: 600;
+                color: #fff;
+                width: fit-content;
+            }
+            .spinner-btm-txt{
+                color: rgba(60, 64, 66, 255);
+                font-size: 0.85em;
+                font-weight: 400;
+                text-align: center;
+            }
+            #spinner-btn1{
+                display: flex;
+            }
+            #spinner-btn2{
+                display: none;
+            }
+        </style>
+
+        <title>Jumia Spinner Wheel</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="spinner-con">
+                <div id="container">
+                    <div class="circle1" id="circle1"></div>
+                    <div class="circle2" id="circle2"></div>
+                    <div class="circle3" id="circle3"></div>
+                </div>
+                <p class="spinner-txt" class="spinner-txt" id="spinner-txt">You are lucky to participate in Jumia Spin Wheel promo where 1 in 3 spinners shall Win any 1 free item on jumia with free shipping to your address. Click on the button below to stop spinner and see your luck. Jumia spin wheel! Winner Takes All!!!</p>
+                <div class="spinner-btn" id="spinner-btn1" onclick="wheel()">Stop Spin Wheel</div>
+                <div class="spinner-btn" id="spinner-btn2" onclick="document.location.href='module/jumia.html'">Grab Your Free Item Now!</div>
+                <p class="spinner-btm-txt" id="spinner-btm-txt">Remember you get only one try. Make it count</p>
+            </div>    
+        </div>
+
+        <div class="sign-bottom-wrap">
+            <p class="sign-img-sm-txt">For further support, you may visit the Help Center or contact our customer service team.</p>
+            <div class="sign-jumia-logo mx-auto"><img src="module/img/icon/jumianame.png" class="img-fluid"></div>		
+        </div>
+
+        <script>
+            function wheel() {
+                document.getElementById("circle1").style.animation = "none";
+                document.getElementById("circle2").style.animation = "none";
+                document.getElementById("circle3").style.animation = "none";
+                document.getElementById("spinner-txt").innerHTML = `Yay, <span style="color:rgba(0, 168, 107, 255);">Congratulations</span>. You are now one of the very lucky few chosen to participate in the promo. Click on button below to go to website and get any product free including shipping`;
+                document.getElementById("spinner-btn1").style.display = "none";
+                document.getElementById("spinner-btm-txt").innerHTML = "Congratulations Spinner!!! Go to website to cashout your award";
+                document.getElementById("spinner-btm-txt").style.color = " rgba(0, 168, 107, 255)";
+                document.getElementById("spinner-btn2").style.display = "flex";
+            }
+        </script>
+    </body>
+    <!-- -------------------- -------------------- -------------------- -->
+    <!-- -------------------- -------------------- -------------------- -->
+    <script src="module/js/bootstrap.js"></script>
+    <script src="module/js/structure.js"></script>
+    <script src="module/js/script.js"></script>
+    <!-- Class Page -->
+    <script src="module/js/class.js"></script>
+    <!-- -------------------- -------------------- -------------------- -->
+    <!-- -------------------- -------------------- -------------------- -->
+</html>

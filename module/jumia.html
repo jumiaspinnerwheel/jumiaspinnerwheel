@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, maximum-scale=1.0">
+        
+        <!-- Css stylesheet links below -->
+        <!-- Bootstrap link -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <!-- External stylesheet -->
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/structure.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <link rel="icon" href="img/icon/jumialogo.png">
+
+        <title>Jumia Spinner Wheel</title>
+    </head>
+    <body>
+        <div id="preloader-background" style="justify-content: center;">
+			<div class="preload">
+				<img x="0px" y="0px" width="50px" style="position: absolute;" height="50px" src="img/icon/profile.png" alt="" srcset="">
+				<div id="circle-loader"></div>
+			</div>
+		</div>
+
+
+
+        <div class="parent-container">
+            <!-- Tablet Navigation menu container -->
+            <div class="tablet-navigation-icon">
+                <div class="container">
+                    <div class="navigation-icon-wrap">
+                        <div class="navigation-icon" onclick="TabletToggle()">
+                            <img src="img/icon/menu.png" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--   -------------------- -------------------- -------------------- -------------------- -------------------- -->
+
+
+
+
+
+            <!--  -------------------- -------------------- Main-page disp[lay screen] -------------------- -------------------- -->
+            <div class="main-screen-display">
+                <!-- Hamburger menu container -->
+                <div class="hamburger-hide hamburger-menu" id="hamburger-screen">
+                    <!-- MENU PAGE - DISPLAY -->
+                    <div id="menu-page" class="general-page page-show">
+                        <menu-page class="menu-display"></menu-page>
+                    </div>
+                    <!--  -------------------- -->
+                </div>
+
+
+
+                <!-- Main screen container -->
+                <div class="screen-show main-screen" id="main-screen">
+                    <!-- ABOUT PAGE - DISPLAY -->
+                    <div id="about-page" class="general-page page-hide">
+                        <about-page class="page-display"></about-page>
+                    </div>
+                    <!--  -------------------- -->
+
+                    
+
+                    <!-- CHECKOUT FIRST PAGE - DISPLAY -->
+                    <div id="checkoutf-page" class="general-page page-hide">
+                        <checkoutf-page class="page-display"></checkoutf-page>
+                    </div>
+                    <!--  -------------------- -->
+
+                    
+
+                    <!-- CHECKOUT SECOND PAGE - DISPLAY -->
+                    <div id="checkouts-page" class="general-page page-hide">
+                        <checkouts-page class="page-display"></checkouts-page>
+                    </div>
+                    <!--  -------------------- -->
+
+                    
+
+                    <!-- DETAIL PAGE - DISPLAY -->
+                    <div id="detail-page" class="general-page page-hide">
+                        <detail-page class="page-display"></detail-page>
+                    </div>
+                    <!--  -------------------- -->
+
+                    
+
+                    <!-- FACEBOOK PAGE - DISPLAY -->
+                    <div id="facebook-page" class="general-page page-hide">
+                        <facebook-page class="page-display"></facebook-page>
+                    </div>
+                    <!--  -------------------- -->
+
+                    
+
+                    <!-- HELP PAGE - DISPLAY -->
+                    <div id="help-page" class="general-page page-hide">
+                        <help-page class="page-display"></help-page>
+                    </div>
+                    <!--  -------------------- -->
+
+                    
+
+                    <!-- HOME PAGE - DISPLAY -->
+                    <div id="home-page" class="general-page page-show">
+                        <home-page class="page-display"></home-page>
+                    </div>
+                    <!--  -------------------- -->
+
+                    
+
+                    <!-- INSTAGRAM PAGE - DISPLAY -->
+                    <div id="instagram-page" class="general-page page-hide">
+                        <instagram-page class="page-display"></instagram-page>
+                    </div>
+                    <!--  -------------------- -->
+
+                    
+
+                    <!-- ITEM PAGE - DISPLAY -->
+                    <div id="item-page" class="general-page page-hide">
+                        <item-page class="page-display"></item-page>
+                    </div>
+                    <!--  -------------------- -->
+
+                    
+
+                    <!-- LIST PAGE - DISPLAY -->
+                    <div id="list-page" class="general-page page-hide">
+                        <list-page class="page-display"></list-page>
+                    </div>
+                    <!--  -------------------- -->
+
+                    
+
+                    <!-- POLICY PAGE - DISPLAY -->
+                    <div id="policy-page" class="general-page page-hide">
+                        <policy-page class="page-display"></policy-page>
+                    </div>
+                    <!--  -------------------- -->
+
+                    
+
+                    <!-- PROFILE PAGE - DISPLAY -->
+                    <div id="profile-page" class="general-page page-hide">
+                        <profile-page class="page-display"></profile-page>
+                    </div>
+                    <!--  -------------------- -->
+
+                    
+
+                    <!-- SIGN IN PAGE - DISPLAY -->
+                    <div id="signin-page" class="general-page page-hide">
+                        <signin-page class="page-display"></signin-page>
+                    </div>
+                    <!--  -------------------- -->
+
+                    
+
+                    <!-- SUCCESS PAGE - DISPLAY -->
+                    <div id="success-page" class="general-page page-hide">
+                        <success-page class="page-display"></success-page>
+                    </div>
+                    <!--  -------------------- -->
+                </div>
+            </div>
+            <!-- -------------------- -------------------- -------------------- -->
+            <!-- -------------------- -------------------- -------------------- -->
+
+        
+            <!-- -------------------- PopState-out -------------------- -->
+            <div class="pop-out-main">
+                <div class="log-out-absolute" onclick="popout()"></div>
+                <div class="log-out-wrap">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="log-top">
+                                <div class="log-img-wrap"><div class="log-img"><img src="img/icon/jumialogo.png" class="img-fluid"></div></div>
+                                <div  class="log-header-circle"></div>
+                            </div>
+                            <!-- -------------------- Header Bottom -------------------- -->
+                            <div class="log-header-bottom-wrap">
+                                <div class="log-header-bottom"></div>
+                                <div class="log-header-bottom"></div>
+                            </div>
+                            <!-- -------------------- -------------------- -------------------- -->
+                            <!-- -------------------- -------------------- -------------------- -->
+                        </div>
+
+                        <div class="col-12">
+                            <div class="log-bottom">
+                                <div class="log-bottom-txt">Click button again to exit Jumia Spinner Wheel</div>
+                                <div class="log-bottom-option">
+                                    <div class="log-no" onclick="popout()">No, continue</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------- -------------------- -------------------- -->
+            <!-- -------------------- -------------------- -------------------- -->
+        </div>
+    </body>
+    <!-- -------------------- -------------------- -------------------- -->
+    <!-- -------------------- -------------------- -------------------- -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/structure.js"></script>
+    <script src="js/script.js"></script>
+    <!-- Class Page -->
+    <script src="js/class.js"></script>
+    <!-- -------------------- -------------------- -------------------- -->
+    <!-- -------------------- -------------------- -------------------- -->
+
+
+    <!-- -------------------- COMPONENT SECTION -------------------- -->
+    <!-- About Page -->
+    <script src="js/components/about.js"></script>
+    <!-- Checkout First Page -->
+    <script src="js/components/checkoutf.js"></script>
+    <!-- Checkout Second Page -->
+    <script src="js/components/checkouts.js"></script>
+    <!-- Detail Page -->
+    <script src="js/components/detail.js"></script>
+    <!-- Facebook Page -->
+    <script src="js/components/facebook.js"></script>
+    <!-- Help Page -->
+    <script src="js/components/help.js"></script>
+    <!-- Home Page -->
+    <script src="js/components/home.js"></script>
+    <!-- Instagram Page -->
+    <script src="js/components/instagram.js"></script>
+    <!-- Item Page -->
+    <script src="js/components/item.js"></script>
+    <!-- Iist Page -->
+    <script src="js/components/list.js"></script>
+    <!-- Menu Page -->
+    <script src="js/components/menu.js"></script>
+    <!-- Policy Page -->
+    <script src="js/components/policy.js"></script>
+    <!-- Sign In Page -->
+    <script src="js/components/signin.js"></script>
+    <!-- Success Page -->
+    <script src="js/components/success.js"></script>
+    <!-- -------------------- -------------------- -------------------- -->
+    <!-- -------------------- -------------------- -------------------- -->
+    <script>
+        // TAblet Mode Menu Toggle Button
+        var TabletToggleFactor = 1;
+        function TabletToggle() {
+            if(TabletToggleFactor == 2){
+                TabletToggleFactor = 1;
+                Hammenuclose();
+            }else{
+                TabletToggleFactor = 2;
+                Hammenuopen();
+            }
+        }
+    </script>
+    <!-- -------------------- -------------------- -------------------- -->
+    <!-- -------------------- -------------------- -------------------- -->
+    <script>
+        // Mobile 
+        function IndexChanger(){
+            ItemChanger();
+            Carousel1();
+            DetailChanger();
+            CheckoutChanger();
+        };
+
+        // preloader
+        function preloader(){
+			document.getElementById("preloader-background").style.display = "none";
+		}
+		//remove/comment this one to check the website in loading state
+		window.onload = preloader(); 
+        window.onload= popout();
+        
+        
+        // Pop
+        function popin() {
+            var logg = document.getElementsByClassName("pop-out-main");
+            for (let i = 0; i < logg.length; i++) {
+                logg[i].style.display = "flex";
+            }
+        }
+        // -------------------- 
+        
+        // Pop
+        function popout() {
+            var logg = document.getElementsByClassName("pop-out-main");
+            for (let i = 0; i < logg.length; i++) {
+                logg[i].style.display = "none";
+            };
+            jQuery(document).ready(function($) {
+                if (window.history && window.history.pushState) {
+                    window.history.pushState('forward', null, './#forward');
+                    $(window).on('popstate', function() {
+                        popin();
+                    });
+                }
+            });
+        };
+        // --------------------   
+    </script>
+    <!-- -------------------- -------------------- -------------------- -->
+    <!-- -------------------- -------------------- -------------------- -->
+</html>

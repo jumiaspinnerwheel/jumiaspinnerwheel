@@ -1,0 +1,1018 @@
+/* -------------------- -------------------- GENERAL STYLES -------------------- -------------------- */
+    /* -------------------- Structure ID -------------------- */
+        #about-page{
+            display: none;
+        }
+        #cHeckoutf-page{
+            display: none;
+        }
+        #cHeckouts-page{
+            display: none;
+        }
+        #detail-page{
+            display: none;
+        }
+        #facebook-page{
+            display: none;
+        }
+        #help-page{
+            display: none;
+        }
+        #home-page{
+            display: flex;
+        }
+        #instagram-page{
+            display: none;
+        }
+        #item-page{
+            display: none;
+        }
+        #list-page{
+            display: none;
+        }
+        #policy-page{
+            display: none;
+        }
+        #signin-page{
+            display: none;
+        }
+        #success-page{
+            display: none;
+        }
+    /* -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+        .general-page{
+            flex-direction: column;
+            height: 100%;
+            overflow-x: hidden;
+            width: 100%;
+        }
+        .page-hide{
+            display: none;
+        }
+        .page-show{
+            display: flex;
+        }
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+    
+/* -------------------- -------------------- -------------------- -------------------- -------------------- */
+
+
+
+
+
+
+
+
+
+
+/* -------------------- -------------------- Main Cpntainer -------------------- -------------------- */
+    /* -------------------- Parent container -------------------- */
+        .parent-container{
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+            width: 100%;
+        }
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* -------------------- Tablet Navigation menu container -------------------- */
+        .tablet-navigation-icon{
+            height: 100%;
+        }
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* -------------------- Main-screen-display -------------------- */
+        .main-screen-display{
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+        }
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* -------------------- Hamburger menu container -------------------- */
+        .hamburger-menu{
+            overflow-y: scroll;
+            height: 100%;
+        }
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* -------------------- Main Screen display -------------------- */
+        .screen-display{
+            overflow: hidden;
+            height: 100%;
+        }
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+
+
+
+    /* --------------------  -------------------- */
+
+    /* -------------------- --------------------  -------------------- */
+/* -------------------- -------------------- -------------------- -------------------- -------------------- */
+
+
+
+
+
+
+
+
+
+/* -------------------- ---------- MOBILE ---------- -------------------- */
+
+    /* -------------------- ---------- MOBILE ---------- -------------------- */
+
+        /* -------------------- ---------- MOBILE ---------- -------------------- */
+
+        @media screen and (max-width: 650px) {
+            /* -------------------- Tablet Navigation menu container -------------------- */
+                .tablet-navigation-icon{
+                    width: 0%;
+                }
+            /* -------------------- --------------------  -------------------- */
+
+
+
+            /* -------------------- Main-screen-display -------------------- */
+                .main-screen-display{
+                    width: 100%;
+                }
+            /* -------------------- --------------------  -------------------- */
+
+
+
+            /* -------------------- Hamburger menu container -------------------- */
+                .hamburger-hide{
+                    width: 0%;
+                }
+                .hamburger-show{
+                    width: 100%;
+                }
+            /* -------------------- --------------------  -------------------- */
+
+
+
+            /* -------------------- Main Screen display -------------------- */
+                .screen-show{
+                    width: 100%;
+                }
+                .screen-hide{
+                    width: 0%;
+                }
+            /* -------------------- --------------------  -------------------- */
+
+
+            
+            /* --------------------  -------------------- */
+                
+            /*  -------------------- -------------------- -------------------- */
+
+
+            
+            /* --------------------  -------------------- */
+            
+            /*  -------------------- -------------------- -------------------- */
+
+
+            
+            /* --------------------  -------------------- */
+                
+            /*  -------------------- -------------------- -------------------- */
+
+
+            
+            /* --------------------  -------------------- */
+                
+            /*  -------------------- -------------------- -------------------- */
+
+
+            
+            /* --------------------  -------------------- */
+            
+            /*  -------------------- -------------------- -------------------- */
+        }
+
+    /* -------------------- ---------- MOBILE ---------- -------------------- */
+
+/* -------------------- ---------- MOBILE ---------- -------------------- */
+
+/* -------------------- ---------- MOBILE ---------- -------------------- */
+
+
+
+
+
+
+
+
+
+
+/* -------------------- ---------- TABLET ---------- -------------------- */
+
+/* -------------------- ---------- TABLET ---------- -------------------- */
+
+    /* -------------------- ---------- TABLET ---------- -------------------- */
+
+        @media screen and (min-width: 650px) and (max-width: 992px) {
+            /* -------------------- Tablet Navigation menu container -------------------- */
+                .tablet-navigation-icon{
+                    width: 10%;
+                }
+            /* -------------------- --------------------  -------------------- */
+
+
+
+            /* -------------------- Main-screen-display -------------------- */
+                .main-screen-display{
+                    width: 90%;
+                }
+            /* -------------------- --------------------  -------------------- */
+
+
+
+            /* -------------------- Hamburger menu container -------------------- */
+                .hamburger-show{
+                    width: 100%;
+                }
+                .hamburger-hide{
+                    width: 0%;
+                }
+            /* -------------------- --------------------  -------------------- */
+
+
+
+            /* -------------------- Main Screen display -------------------- */
+                .screen-show{
+                    width: 100%;
+                }
+                .screen-hide{
+                    width: 0%;
+                }
+            /* -------------------- --------------------  -------------------- */
+
+
+            
+            /* --------------------  -------------------- */
+            
+            /*  -------------------- -------------------- -------------------- */
+
+
+            
+            /* --------------------  -------------------- */
+                
+            /*  -------------------- -------------------- -------------------- */
+
+
+            
+            /* --------------------  -------------------- */
+                
+            /*  -------------------- -------------------- -------------------- */
+
+
+            
+            /* --------------------  -------------------- */
+            
+            /*  -------------------- -------------------- -------------------- */
+        }
+
+    /* -------------------- ---------- TABLET ---------- -------------------- */
+
+/* -------------------- ---------- TABLET ---------- -------------------- */
+
+/* -------------------- ---------- TABLET ---------- -------------------- */
+
+
+
+
+
+
+
+
+
+
+/* -------------------- ---------- SMALL LAPTOP ---------- -------------------- */
+
+/* -------------------- ---------- SMALL LAPTOP ---------- -------------------- */
+
+    /* -------------------- ---------- SMALL LAPTOP ---------- -------------------- */
+
+        @media screen and (min-width: 992px) and (max-width: 1200px) {
+            /* -------------------- Tablet Navigation menu container -------------------- */
+            .tablet-navigation-icon{
+                    width: 0%;
+                }
+            /* -------------------- --------------------  -------------------- */
+
+
+
+            /* -------------------- Main-screen-display -------------------- */
+                .main-screen-display{
+                    width: 100%;
+                }
+            /* -------------------- --------------------  -------------------- */
+
+
+
+            /* -------------------- Hamburger menu container -------------------- */
+                .hamburger-show{
+                    width: 27.5%;
+                }
+                .hamburger-hide{
+                    width: 27.5%;
+                }
+            /* -------------------- --------------------  -------------------- */
+
+
+
+            /* -------------------- Main Screen display -------------------- */
+                .screen-show{
+                    width: 72.5%;
+                }
+                .screen-hide{
+                    width: 72.5%;
+                }
+            /* -------------------- --------------------  -------------------- */
+
+
+            
+            /* --------------------  -------------------- */
+            
+            /*  -------------------- -------------------- -------------------- */
+
+
+            
+            /* --------------------  -------------------- */
+                
+            /*  -------------------- -------------------- -------------------- */
+
+
+            
+            /* --------------------  -------------------- */
+                
+            /*  -------------------- -------------------- -------------------- */
+
+
+            
+            /* --------------------  -------------------- */
+            
+            /*  -------------------- -------------------- -------------------- */
+        }
+
+    /* -------------------- ---------- SMALL LAPTOP ---------- -------------------- */
+
+/* -------------------- ---------- SMALL LAPTOP ---------- -------------------- */
+
+/* -------------------- ---------- SMALL LAPTOP ---------- -------------------- */
+
+
+
+
+
+
+
+
+
+
+/* -------------------- ---------- LAPTOP ---------- -------------------- */
+
+/* -------------------- ---------- LAPTOP ---------- -------------------- */
+
+    /* -------------------- ---------- LAPTOP ---------- -------------------- */
+
+        @media screen and (min-width: 1200px) {
+            /* -------------------- Tablet Navigation menu container -------------------- */
+                .tablet-navigation-icon{
+                    width: 0%;
+                }
+            /* -------------------- --------------------  -------------------- */
+
+
+
+            /* -------------------- Main-screen-display -------------------- */
+                .main-screen-display{
+                    width: 100%;
+                }
+            /* -------------------- --------------------  -------------------- */
+
+
+
+            /* -------------------- Hamburger menu container -------------------- */
+                .hamburger-show{
+                    width: 25%;
+                }
+                .hamburger-hide{
+                    width: 25%;
+                }
+            /* -------------------- --------------------  -------------------- */
+
+
+
+            /* -------------------- Main Screen display -------------------- */
+                .screen-show{
+                    width: 75%;
+                }
+                .screen-hide{
+                    width: 75%;
+                }
+            /* -------------------- --------------------  -------------------- */
+
+
+            
+            /* --------------------  -------------------- */
+            
+            /*  -------------------- -------------------- -------------------- */
+
+
+            
+            /* --------------------  -------------------- */
+                
+            /*  -------------------- -------------------- -------------------- */
+
+
+            
+            /* --------------------  -------------------- */
+                
+            /*  -------------------- -------------------- -------------------- */
+
+
+            
+            /* --------------------  -------------------- */
+            
+            /*  -------------------- -------------------- -------------------- */
+        }
+
+    /* -------------------- ---------- LAPTOP ---------- -------------------- */
+
+/* -------------------- ---------- LAPTOP ---------- -------------------- */
+
+/* -------------------- ---------- LAPTOP ---------- -------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------- -------------------- STYLES CREATED DURING [LOG-OUT - PAGE] -------------------- -------------------- */
+        /* -------------------- Mobile responsive view -------------------- */
+        @media screen and (max-width: 650px) {
+            /*  */
+            /* width */
+            ::-webkit-scrollbar {
+                width: 0.1em;
+                margin: 2em 0;
+            }
+            /* Track */
+            ::-webkit-scrollbar-track {
+                box-shadow: inset 0 0 5px var(--light-seperation-line); 
+            }
+            /* Handle */
+            ::-webkit-scrollbar-thumb {
+                background: rgba(250, 136, 37, 255); 
+                border-radius: 0.5em;
+            }
+            /* Handle on hover */250, 136, 37
+            ::-webkit-scrollbar-thumb:hover {
+                background: rgba(250, 136, 37, 255); 
+            }
+            /* -------------------- */
+
+
+
+            /* Home page scrollbar style */
+            .popular-section-con::-webkit-scrollbar-track{
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+                border-radius: 10px;
+                background-color: #F5F5F5;
+                border: 0.25em solid transparent;
+            }
+            .popular-section-con::-webkit-scrollbar{
+                height: 0.095em;
+                background-color: #F5F5F5;
+            }
+            .popular-section-con::-webkit-scrollbar-thumb{
+                border-radius: 10px;
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+                background-color: rgba(250, 136, 37, 255);
+            }
+            /* -------------------- */
+
+
+
+            /* Home page scrollbar style */
+            .foot-scroll-con::-webkit-scrollbar-track{
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+                border-radius: 10px;
+                background-color: #F5F5F5;
+                border: 0.25em solid transparent;
+            }
+            .foot-scroll-con::-webkit-scrollbar{
+                height: 0.00em;
+                background-color: #F5F5F5;
+            }
+            .foot-scroll-con::-webkit-scrollbar-thumb{
+                border-radius: 10px;
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+                background-color: rgba(250, 136, 37, 255);
+            }
+            /* -------------------- */
+
+
+
+            /* Item page scrollbar style */
+            .item-section-con::-webkit-scrollbar-track{
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+                border-radius: 10px;
+                background-color: #F5F5F5;
+                border: 0.25em solid transparent;
+            }
+            .item-section-con::-webkit-scrollbar{
+                height: 0.095em;
+                background-color: #F5F5F5;
+            }
+            .item-section-con::-webkit-scrollbar-thumb{
+                border-radius: 10px;
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+                background-color: rgba(250, 136, 37, 255);
+            }
+            /* -------------------- */
+        }
+    /* -------------------- -------------------- -------------------- */
+
+
+
+
+
+    /* -------------------- Tablet responsive view -------------------- */
+        @media screen and  (min-width: 650px) and (max-width: 992px) {
+            /*  */
+            /* width */
+            ::-webkit-scrollbar {
+                width: 0.2em;
+                margin: 2em 0;
+            }
+            /* Track */
+            ::-webkit-scrollbar-track {
+                box-shadow: inset 0 0 5px var(--light-seperation-line); 
+            }
+            /* Handle */
+            ::-webkit-scrollbar-thumb {
+                background: rgba(250, 136, 37, 255); 
+                border-radius: 0.5em;
+            }
+            /* Handle on hover */
+            ::-webkit-scrollbar-thumb:hover {
+                background: rgba(250, 136, 37, 255); 
+            }
+            /* -------------------- */
+
+
+
+            /* Home page scrollbar style */
+            .popular-section-con::-webkit-scrollbar-track{
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+                border-radius: 10px;
+                background-color: #F5F5F5;
+                border: 0.25em solid transparent;
+            }
+            .popular-section-con::-webkit-scrollbar{
+                height: 0.15em;
+                background-color: #F5F5F5;
+            }
+            .popular-section-con::-webkit-scrollbar-thumb{
+                border-radius: 10px;
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+                background-color: rgba(250, 136, 37, 255);
+            }
+            /* -------------------- */
+
+
+
+            /* Home page scrollbar style */
+            .foot-scroll-con::-webkit-scrollbar-track{
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+                border-radius: 10px;
+                background-color: #F5F5F5;
+                border: 0.25em solid transparent;
+            }
+            .foot-scroll-con::-webkit-scrollbar{
+                height: 0.00em;
+                background-color: #F5F5F5;
+            }
+            .foot-scroll-con::-webkit-scrollbar-thumb{
+                border-radius: 10px;
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+                background-color: rgba(250, 136, 37, 255);
+            }
+            /* -------------------- */
+
+
+
+            /* Item page scrollbar style */
+            .item-section-con::-webkit-scrollbar-track{
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+                border-radius: 10px;
+                background-color: #F5F5F5;
+                border: 0.25em solid transparent;
+            }
+            .item-section-con::-webkit-scrollbar{
+                height: 0.15em;
+                background-color: #F5F5F5;
+            }
+            .item-section-con::-webkit-scrollbar-thumb{
+                border-radius: 10px;
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+                background-color: rgba(250, 136, 37, 255);
+            }
+            /* -------------------- */
+        }
+    /* -------------------- -------------------- -------------------- */
+
+
+
+
+
+    /* -------------------- Small laptop responsive view -------------------- */
+        @media screen and (min-width: 992px) and (max-width: 1200px)  {
+            /*  */
+            /* width */
+            ::-webkit-scrollbar {
+                width: 0.3em;
+                margin: 2em 0;
+            }
+            /* Track */
+            ::-webkit-scrollbar-track {
+                box-shadow: inset 0 0 5px var(--light-seperation-line); 
+            }
+            /* Handle */
+            ::-webkit-scrollbar-thumb {
+                background: rgba(250, 136, 37, 255); 
+                border-radius: 0.5em;
+            }
+            /* Handle on hover */
+            ::-webkit-scrollbar-thumb:hover {
+                background: rgba(250, 136, 37, 255); 
+            }
+            /* -------------------- */
+
+
+
+            /* Home page scrollbar style */
+            .popular-section-con::-webkit-scrollbar-track{
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+                border-radius: 10px;
+                background-color: #F5F5F5;
+                border: 0.25em solid transparent;
+            }
+            .popular-section-con::-webkit-scrollbar{
+                height: 0.215em;
+                background-color: #F5F5F5;
+            }
+            .popular-section-con::-webkit-scrollbar-thumb{
+                border-radius: 10px;
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+                background-color: rgba(250, 136, 37, 255);
+            }
+            /* -------------------- */
+
+
+
+            /* Home page scrollbar style */
+            .foot-scroll-con::-webkit-scrollbar-track{
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+                border-radius: 10px;
+                background-color: #F5F5F5;
+                border: 0.25em solid transparent;
+            }
+            .foot-scroll-con::-webkit-scrollbar{
+                height: 0.215em;
+                background-color: #F5F5F5;
+            }
+            .foot-scroll-con::-webkit-scrollbar-thumb{
+                border-radius: 10px;
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+                background-color: rgba(250, 136, 37, 255);
+            }
+            /* -------------------- */
+
+
+
+            /* Item page scrollbar style */
+            .item-section-con::-webkit-scrollbar-track{
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+                border-radius: 10px;
+                background-color: #F5F5F5;
+                border: 0.25em solid transparent;
+            }
+            .item-section-con::-webkit-scrollbar{
+                height: 0.215em;
+                background-color: #F5F5F5;
+            }
+            .item-section-con::-webkit-scrollbar-thumb{
+                border-radius: 10px;
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+                background-color: rgba(250, 136, 37, 255);
+            }
+        }
+    /* -------------------- -------------------- -------------------- */
+
+
+
+
+
+    /* -------------------- Laptop responsive view -------------------- */
+        @media screen and (min-width: 1200px) {
+            /*  */
+            /* width */
+            ::-webkit-scrollbar {
+                width: 0.35em;
+                margin: 2em 0;
+            }
+            /* Track */
+            ::-webkit-scrollbar-track {
+                box-shadow: inset 0 0 5px var(--light-seperation-line); 
+            }
+            /* Handle */
+            ::-webkit-scrollbar-thumb {
+                background: rgba(250, 136, 37, 255); 
+                border-radius: 0.5em;
+            }
+            /* Handle on hover */
+            ::-webkit-scrollbar-thumb:hover {
+                background: rgba(250, 136, 37, 255); 
+            }
+            /* -------------------- */
+
+
+
+            /* Home page scrollbar style */
+            .popular-section-con::-webkit-scrollbar-track{
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+                border-radius: 10px;
+                background-color: #F5F5F5;
+                border: 0.25em solid transparent;
+            }
+            .popular-section-con::-webkit-scrollbar{
+                height: 0.25em;
+                background-color: #F5F5F5;
+            }
+            .popular-section-con::-webkit-scrollbar-thumb{
+                border-radius: 10px;
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+                background-color: rgba(250, 136, 37, 255);
+            }
+            /* -------------------- */
+
+
+
+            /* Home page scrollbar style */
+            .foot-scroll-con::-webkit-scrollbar-track{
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+                border-radius: 10px;
+                background-color: #F5F5F5;
+                border: 0.25em solid transparent;
+            }
+            .foot-scroll-con::-webkit-scrollbar{
+                height: 0.25em;
+                background-color: #F5F5F5;
+            }
+            .foot-scroll-con::-webkit-scrollbar-thumb{
+                border-radius: 10px;
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+                background-color: rgba(250, 136, 37, 255);
+            }
+            /* -------------------- */
+
+
+
+            /* Item page scrollbar style */
+            .item-section-con::-webkit-scrollbar-track{
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+                border-radius: 10px;
+                background-color: #F5F5F5;
+                border: 0.25em solid transparent;
+            }
+            .item-section-con::-webkit-scrollbar{
+                height: 0.25em;
+                background-color: #F5F5F5;
+            }
+            .item-section-con::-webkit-scrollbar-thumb{
+                border-radius: 10px;
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+                background-color: rgba(250, 136, 37, 255);
+            }
+            /* -------------------- */
+        }
+    /* -------------------- -------------------- -------------------- */
+/* -------------------- -------------------- -------------------- -------------------- -------------------- */
+/* -------------------- -------------------- -------------------- -------------------- -------------------- */
