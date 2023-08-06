@@ -526,6 +526,7 @@
             margin-top: 1.25em;
             padding: 25% 20%;
             width: 100%;
+            z-index: 0;
         }
         .home-img-fluid{
         	max-height: 10em;

@@ -28,74 +28,71 @@ class CheckoutF extends HTMLElement{
                         <div class="container">
                             <p class="category-lg-txt line-height-zero">Add an address</p>
                             
-                            <form  method="POST" action="">
-                                <div class="row">
-                                    <div class="col-12 col-md-10 col-lg-6 mx-auto">
-                                        <label class="custom-field one">
-                                            <input type="text" placeholder=" " name="validation" required/>
-                                            <span class="placeholder">Full name (First and Last name)</span>
-                                        </label>
-                                    </div>
-                                
-                                    <div class="col-12 col-md-10 col-lg-6 mx-auto">
-                                        <label class="custom-field one">
-                                            <input type="email" placeholder=" " name="validation" required/>
-                                            <span class="placeholder">Enter e-mail</span>
-                                        </label>
-                                    </div>
-                                
-                                    <div class="col-12 col-md-10 col-lg-6 mx-auto">
-                                        <label class="custom-field one">
-                                            <input type="address" placeholder=" " name="validation" required/>
-                                            <span class="placeholder">Enter Address</span>
-                                        </label>
-                                    </div>
-                                    
-                                    <div class="col-7 col-md-6 col-lg-6 mx-auto">
-                                        <label class="custom-field one">
-                                            <input type="text" placeholder=" " name="validation" required/>
-                                            <span class="placeholder">Enter City</span>
-                                        </label>
-                                    </div>
-                                    
-                                    <div class="col-5 col-md-4 col-lg-3 mx-auto">
-                                        <label class="custom-field one zip-pad">
-                                            <input type="number" maxlength="6" placeholder=" " name="validation" required/>
-                                            <span class="placeholder">Zip code</span>
-                                        </label>
-                                    </div>
-                                    
-                                    <div class="col-6 col-md-5 col-lg-4 mx-auto">
-                                        <label class="checkout-label col-12">County of residence</label>
-                                        <div class="col-sm-12">
-                                            <select id="country" name="country" class="select"></select>
-                                        </div>
-                                    </div>
-                                    
-                                    
-                                    <div class="col-6 col-md-5 col-lg-5 mx-auto">
-                                        <label class="checkout-label col-12">State</label>
-                                            <div class="col-12">
-                                            <select name="state" id="state" class="select"></select>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="col-12 col-md-10 col-lg-6">
-                                        <div class="checkout-delivery-btn" onclick="CheckFirstToSecond()">
-                                            <div class="checkout-delivery-txt-wrap">
-                                                <label class="checkout-delivery-lg-txt one-line">Delivery instructions (optional)</label>
-                                                <p class="checkout-delivery-sm-txt one-line">Notes, prefrences, access codes and more</p>
-                                            </div>
-                                            <div class="checkout-delivery-img"><img class="img-fluid" src="img/icon/back.png"></div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="col-12 col-md-10 col-lg-6">
-                                        <input class="checkout-use-btn" onclick="document.location.href='success.html'">
-                                    </div>
-                                
+                            <div class="row">
+                                <div class="col-12 col-md-10 col-lg-6 mx-auto">
+                                    <label class="custom-field one">
+                                        <input type="text" placeholder=" " name="validation" required/>
+                                        <span class="placeholder">Full name (First and Last name)</span>
+                                    </label>
                                 </div>
-                            </form>
+                            
+                                <div class="col-12 col-md-10 col-lg-6 mx-auto">
+                                    <label class="custom-field one">
+                                        <input type="email" placeholder=" " name="validation" required/>
+                                        <span class="placeholder">Enter e-mail</span>
+                                    </label>
+                                </div>
+                            
+                                <div class="col-12 col-md-10 col-lg-6 mx-auto">
+                                    <label class="custom-field one">
+                                        <input type="address" placeholder=" " name="validation" required/>
+                                        <span class="placeholder">Enter Address</span>
+                                    </label>
+                                </div>
+                                
+                                <div class="col-7 col-md-6 col-lg-6 mx-auto">
+                                    <label class="custom-field one">
+                                        <input type="text" placeholder=" " name="validation" required/>
+                                        <span class="placeholder">Enter City</span>
+                                    </label>
+                                </div>
+                                
+                                <div class="col-5 col-md-4 col-lg-3 mx-auto">
+                                    <label class="custom-field one zip-pad">
+                                        <input type="number" maxlength="6" placeholder=" " name="validation" required/>
+                                        <span class="placeholder">Zip code</span>
+                                    </label>
+                                </div>
+                                
+                                <div class="col-6 col-md-5 col-lg-4 mx-auto">
+                                    <label class="checkout-label col-12">County of residence</label>
+                                    <div class="col-sm-12">
+                                        <select id="country" name="country" class="select"></select>
+                                    </div>
+                                </div>
+                                
+                                
+                                <div class="col-6 col-md-5 col-lg-5 mx-auto">
+                                    <label class="checkout-label col-12">State</label>
+                                        <div class="col-12">
+                                        <select name="state" id="state" class="select"></select>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-12 col-md-10 col-lg-6">
+                                    <div class="checkout-delivery-btn" onclick="CheckFirstToSecond()">
+                                        <div class="checkout-delivery-txt-wrap">
+                                            <label class="checkout-delivery-lg-txt one-line">Delivery instructions (optional)</label>
+                                            <p class="checkout-delivery-sm-txt one-line">Notes, prefrences, access codes and more</p>
+                                        </div>
+                                        <div class="checkout-delivery-img"><img class="img-fluid" src="img/icon/back.png"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-12 col-md-10 col-lg-6">
+                                    <button class="checkout-use-btn" onclick="document.location.href='success.html'">Use this address</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     
