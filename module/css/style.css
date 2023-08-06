@@ -2161,6 +2161,7 @@
         border-radius: 0.5em;
         font-weight: 500;
         font-size: 1em;
+        margin-bottom: 1em;
         color: var(--white-font);
         width: 100%;
     }
