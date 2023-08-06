@@ -25,7 +25,7 @@ class Help extends HTMLElement{
                             </div>
                             
                             <div class="support-help-bot">
-                                <div class="support-link-btn" onclick="document.location.href='https://t.me/jumiaspinnerwheel'">Go to support on Telegram</div>       
+                                <div class="support-link-btn" onclick="document.location.href='https://t.me/jumiaspinnerwheel/'">Go to support on Telegram</div>       
                                 <!-- Footer line-->
                                 <div class="foot-line"></div>
                                 

@@ -53,6 +53,10 @@
         // --------------------
     
         //  
+        var notify = document.getElementById("notify-page");
+        // --------------------
+    
+        //  
         var success = document.getElementById("success-page");
         // --------------------
     //  -------------------- -------------------- --------------------
@@ -147,6 +151,7 @@
                 list.style.display = "none";
                 policy.style.display = "none";
                 signin.style.display = "none";
+                notify.style.display = "none";
                 success.style.display = "none";
             }
         // -------------------- 
@@ -165,6 +170,7 @@
                 list.style.display = "none";
                 policy.style.display = "none";
                 signin.style.display = "none";
+                notify.style.display = "none";
                 success.style.display = "none";
             }
         // -------------------- 
@@ -183,6 +189,7 @@
                 list.style.display = "none";
                 policy.style.display = "none";
                 signin.style.display = "none";
+                notify.style.display = "none";
                 success.style.display = "none";
             }
         // -------------------- 
@@ -201,6 +208,7 @@
                 list.style.display = "flex"; // -------------------- Container --------------------
                 policy.style.display = "none";
                 signin.style.display = "none";
+                notify.style.display = "none";
                 success.style.display = "none";
             }
         // --------------------
@@ -218,6 +226,7 @@
                 item.style.display = "none";
                 list.style.display = "none";
                 policy.style.display = "none";
+                notify.style.display = "none";
                 signin.style.display = "flex"; // -------------------- Container --------------------
                 success.style.display = "none";
             }
@@ -235,6 +244,7 @@
                 instagram.style.display = "none";
                 item.style.display = "none";
                 list.style.display = "none";
+                notify.style.display = "none";
                 policy.style.display = "flex"; // -------------------- Container --------------------
                 signin.style.display = "none";
                 success.style.display = "none";
@@ -310,6 +320,58 @@
 
     // -------------------- ITEM PAGE FUNCTIONS  -------------------- 
        //  
+       function itemCarousel() {
+       		// CAROUSEL BUTTON & BORDER
+       		document.getElementById("item-carousel-wrap1").style.border = `0.1875em solid rgba(${ ItemSelector[ItemIndex].color } 1)`;
+			document.getElementById("item-carousel-wrap2").style.border = "none";
+       		document.getElementById("item-carousel-wrap3").style.border = "none";
+       		document.getElementById("item-carousel-wrap4").style.border = "none";
+       		document.getElementById("item-carousel-wrap5").style.border = "none";
+       		// CAROUSEL PIGINATION
+       		// 1
+       		document.getElementById("item-carousel-pigination-con1").style.background = `rgba(${ ItemSelector[ItemIndex].color } 1)`;
+       		document.getElementById("item-carousel-pigination-con1").style.borderRadius = "0px";
+       		document.getElementById("item-carousel-pigination-con1").style.margin = "0 0.35em 0 0.35em";
+       		document.getElementById("item-carousel-pigination-con1").style.transform = "rotate(45deg)";
+       		document.getElementById("item-carousel-pigination-con1").style.height = "0.1em";
+       		document.getElementById("item-carousel-pigination-con1").style.width = "0.1em";
+       		document.getElementById("item-carousel-pigination-con1").style.boxShadow = `0 0 1px 0.5px rgba(${ ItemSelector[ItemIndex].color } 1),  0 0 1px 1.75px rgba(${ ItemSelector[ItemIndex].color } 0.5)`;
+       		// 2
+       		document.getElementById("item-carousel-pigination-con2").style.background = `rgba(${ ItemSelector[ItemIndex].color } 0.5)`;
+       		document.getElementById("item-carousel-pigination-con2").style.borderRadius = "500px";
+       		document.getElementById("item-carousel-pigination-con2").style.margin = "0 0.2em 0 0.2em";
+       		document.getElementById("item-carousel-pigination-con2").style.transform = "rotate(90deg)";
+       		document.getElementById("item-carousel-pigination-con2").style.height = "0.2em";
+       		document.getElementById("item-carousel-pigination-con2").style.width = "0.2em";
+       		document.getElementById("item-carousel-pigination-con2").style.boxShadow = "none";
+       		// 3
+       		document.getElementById("item-carousel-pigination-con3").style.background = `rgba(${ ItemSelector[ItemIndex].color } 0.5)`;
+       		document.getElementById("item-carousel-pigination-con3").style.borderRadius = "500px";
+       		document.getElementById("item-carousel-pigination-con3").style.margin = "0 0.2em 0 0.2em";
+       		document.getElementById("item-carousel-pigination-con3").style.transform = "rotate(90deg)";
+       		document.getElementById("item-carousel-pigination-con3").style.height = "0.2em";
+       		document.getElementById("item-carousel-pigination-con3").style.width = "0.2em";
+       		document.getElementById("item-carousel-pigination-con3").style.boxShadow = "none";
+       		// 4
+       		document.getElementById("item-carousel-pigination-con4").style.background = `rgba(${ ItemSelector[ItemIndex].color } 0.5)`;
+       		document.getElementById("item-carousel-pigination-con4").style.borderRadius = "500px";
+       		document.getElementById("item-carousel-pigination-con4").style.margin = "0 0.2em 0 0.2em";
+       		document.getElementById("item-carousel-pigination-con4").style.transform = "rotate(90deg)";
+       		document.getElementById("item-carousel-pigination-con4").style.height = "0.2em";
+       		document.getElementById("item-carousel-pigination-con4").style.width = "0.2em";
+       		document.getElementById("item-carousel-pigination-con4").style.boxShadow = "none";
+       		// 5
+       		document.getElementById("item-carousel-pigination-con5").style.background = `rgba(${ ItemSelector[ItemIndex].color } 0.5)`;
+       		document.getElementById("item-carousel-pigination-con5").style.borderRadius = "500px";
+       		document.getElementById("item-carousel-pigination-con5").style.margin = "0 0.2em 0 0.2em";
+       		document.getElementById("item-carousel-pigination-con5").style.transform = "rotate(90deg)";
+       		document.getElementById("item-carousel-pigination-con5").style.height = "0.2em";
+       		document.getElementById("item-carousel-pigination-con5").style.width = "0.2em";
+       		document.getElementById("item-carousel-pigination-con5").style.boxShadow = "none";
+       }
+       // --------------------
+
+       //  
        function Carousel1() {
        		// CAROUSEL BUTTON & BORDER
        		document.getElementById("item-carousel-wrap1").style.border = `0.1875em solid rgba(${ ItemSelector[ItemIndex].color } 1)`;
@@ -361,6 +423,7 @@
        		
        		// Image Change
        		document.getElementById("item-img-display").innerHTML = `<img class="item-img-fluid" src="img/${ ItemSelector[ItemIndex].image1 }" >`;
+            document.getElementById("item-img-display").style.justifyContent = "center";
        }
        // --------------------   
        
@@ -416,6 +479,7 @@
        		
        		// Image Change
        		document.getElementById("item-img-display").innerHTML = `<img class="item-img-fluid" src="img/${ ItemSelector[ItemIndex].image2 }" >`;
+            document.getElementById("item-img-display").style.justifyContent = "center";
        }
        // --------------------
        
@@ -471,6 +535,7 @@
        		
        		// Image Change
        		document.getElementById("item-img-display").innerHTML = `<img class="item-img-fluid" src="img/${ ItemSelector[ItemIndex].image3 }" >`;
+            document.getElementById("item-img-display").style.justifyContent = "center";
        }
        // --------------------
       
@@ -526,6 +591,7 @@
        		
        		// Image Change
        		document.getElementById("item-img-display").innerHTML = `<img class="item-img-fluid" src="img/${ ItemSelector[ItemIndex].image4 }" >`;
+            document.getElementById("item-img-display").style.justifyContent = "center";
        }
        // --------------------
        
@@ -581,6 +647,7 @@
        		
        		// Image Change
        		document.getElementById("item-img-display").innerHTML = `<img class="item-img-fluid" src="img/${ ItemSelector[ItemIndex].image5 }" >`;
+            document.getElementById("item-img-display").style.justifyContent = "center";
        }
        // --------------------
        
@@ -598,6 +665,7 @@
                 list.style.display = "none";
                 policy.style.display = "none";
                 signin.style.display = "none";
+                notify.style.display = "none";
                 success.style.display = "none";
             }
        // --------------------
@@ -622,6 +690,7 @@
                 list.style.display = "none";
                 policy.style.display = "none";
                 signin.style.display = "none";
+                notify.style.display = "none";
                 success.style.display = "none";
             }
         // -------------------- 
@@ -660,6 +729,7 @@
             list.style.display = "none";
             policy.style.display = "none";
             signin.style.display = "none";
+            notify.style.display = "none";
             success.style.display = "none";
         }
         // -------------------- 
@@ -684,6 +754,7 @@
             list.style.display = "none";
             policy.style.display = "none";
             signin.style.display = "none";
+            notify.style.display = "none";
             success.style.display = "none";
         }
         // --------------------
@@ -702,6 +773,7 @@
             list.style.display = "none";
             policy.style.display = "none";
             signin.style.display = "none";
+            notify.style.display = "none";
             success.style.display = "none";
         }
         
@@ -719,6 +791,7 @@
             list.style.display = "none";
             policy.style.display = "none";
             signin.style.display = "none";
+            notify.style.display = "none";
             success.style.display = "none";
         }
         // --------------------
@@ -737,7 +810,27 @@
             list.style.display = "none";
             policy.style.display = "none";
             signin.style.display = "none";
+            notify.style.display = "none";
             success.style.display = "flex"; // -------------------- Container --------------------
+        }
+        // --------------------
+        
+        //  To List
+        function ToNotify() {
+            about.style.display = "none";
+            checkouts.style.display = "none";
+            checkoutf.style.display = "none";
+            detail.style.display = "none";
+            facebook.style.display = "none";
+            help.style.display = "none";
+            home.style.display = "none";
+            instagram.style.display = "none";
+            item.style.display = "none";
+            list.style.display = "none";
+            policy.style.display = "none";
+            signin.style.display = "none";
+            notify.style.display = "flex"; // -------------------- Container --------------------
+            success.style.display = "none";
         }
         // --------------------
     //  -------------------- -------------------- --------------------

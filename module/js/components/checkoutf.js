@@ -90,7 +90,7 @@ class CheckoutF extends HTMLElement{
                                 </div>
                                 
                                 <div class="col-12 col-md-10 col-lg-6">
-                                    <div class="checkout-use-btn" onclick="document.location.href='success.html'">Use this address</div>
+                                    <div class="checkout-use-btn" onclick="ToNotify()">Use this address</div>
                                 </div>
                             </div>
                         </div>

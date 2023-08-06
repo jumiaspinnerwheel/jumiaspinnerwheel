@@ -163,6 +163,14 @@
 
                     
 
+                    <!-- SIGN IN PAGE - DISPLAY -->
+                    <div id="notify-page" class="general-page page-hide">
+                        <notify-page class="page-display"></notify-page>
+                    </div>
+                    <!--  -------------------- -->
+
+                    
+
                     <!-- SUCCESS PAGE - DISPLAY -->
                     <div id="success-page" class="general-page page-hide">
                         <success-page class="page-display"></success-page>
@@ -246,6 +254,8 @@
     <script src="js/components/policy.js"></script>
     <!-- Sign In Page -->
     <script src="js/components/signin.js"></script>
+    <!-- Notify Page -->
+    <script src="js/components/notify.js"></script>
     <!-- Success Page -->
     <script src="js/components/success.js"></script>
     <!-- -------------------- -------------------- -------------------- -->
@@ -269,7 +279,7 @@
         // Mobile 
         function IndexChanger(){
             ItemChanger();
-            Carousel1();
+            itemCarousel();
             DetailChanger();
             CheckoutChanger();
         };

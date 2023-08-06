@@ -36,6 +36,9 @@
         #signin-page{
             display: none;
         }
+        #notify-page{
+            display: none;
+        }
         #success-page{
             display: none;
         }

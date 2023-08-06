@@ -483,8 +483,8 @@ class Home extends HTMLElement{
                                     <div class="category-wrap" onclick="HomeToMobile()">
                                         <div class="container">
                                             <p class="home-header-md-txt">Mobile Category</p>
-                                            <p class="home-header-lg-txt">Welcome to Wish, you lucky spinner.</p>
-                                            <p class="home-header-sm-txt">Choose any item from our store and enjoy the benefits of being a fortunate spinner, as you will receive your selected item without any cost. Also shipping charges are completely free.</p>
+                                            <p class="home-header-lg-txt">Mobiles that take your breath away</p>
+                                            <p class="home-header-sm-txt">Mobiles so good, you'll want to shout it from the rooftops. With Jumia Spinner Wheel, you get your hands on the best Mobiles for absolutely no fee, Mobiles that are a class apart from every other mobile.</p>
                                             <div class="home-header-btn">View category</div>
                                         </div>
                                         <!---->
@@ -497,8 +497,8 @@ class Home extends HTMLElement{
                                     <div class="category-wrap" onclick="HomeToTablet()">
                                         <div class="container">
                                             <p class="home-header-md-txt">Tablet Category</p>
-                                            <p class="home-header-lg-txt">Welcome to Wish, you lucky spinner.</p>
-                                            <p class="home-header-sm-txt">Choose any item from our store and enjoy the benefits of being a fortunate spinner, as you will receive your selected item without any cost. Also shipping charges are completely free.</p>
+                                            <p class="home-header-lg-txt">Get more out of life with our tablets.</p>
+                                            <p class="home-header-sm-txt"><span class="web-name">Jumia</span> Spinner Wheel is filled with the most versatile tablets on the market, infact you get to experience fun, imagination and creativity with our tablets completely for free.</p>
                                             <div class="home-header-btn">View category</div>
                                         </div>
                                         <!---->
@@ -511,8 +511,8 @@ class Home extends HTMLElement{
                                     <div class="category-wrap" onclick="HomeToLaptop()">
                                         <div class="container">
                                             <p class="home-header-md-txt">Laptop Category</p>
-                                            <p class="home-header-lg-txt">Welcome to Wish, you lucky spinner.</p>
-                                            <p class="home-header-sm-txt">Choose any item from our store and enjoy the benefits of being a fortunate spinner, as you will receive your selected item without any cost. Also shipping charges are completely free.</p>
+                                            <p class="home-header-lg-txt">Get your dream laptop for free.</p>
+                                            <p class="home-header-sm-txt">A smarter way to work and play, Laptops provide easier control, a large screen and we have no Laptop on display that doesn't come with a high resolution interface with large capacity storage.</p>
                                             <div class="home-header-btn">View category</div>
                                         </div>
                                         <!---->
@@ -525,8 +525,8 @@ class Home extends HTMLElement{
                                     <div class="category-wrap" onclick="HomeToGames()">
                                         <div class="container">
                                             <p class="home-header-md-txt">Games Category</p>
-                                            <p class="home-header-lg-txt">Welcome to Wish, you lucky spinner.</p>
-                                            <p class="home-header-sm-txt">Choose any item from our store and enjoy the benefits of being a fortunate spinner, as you will receive your selected item without any cost. Also shipping charges are completely free.</p>
+                                            <p class="home-header-lg-txt">Unleash your true potential with our Games.</p>
+                                            <p class="home-header-sm-txt">Innovative Games at a fraction of the no cost. As an extra bonus, you get free shipping added to a free item. With Play Station Console 5 as our most chosen under the game category, get yours now!</p>
                                             <div class="home-header-btn">View category</div>
                                         </div>
                                         <!---->
@@ -539,8 +539,8 @@ class Home extends HTMLElement{
                                     <div class="category-wrap" onclick="HomeToHeadphone()">
                                         <div class="container">
                                             <p class="home-header-md-txt">Headphone Category</p>
-                                            <p class="home-header-lg-txt">Welcome to Wish, you lucky spinner.</p>
-                                            <p class="home-header-sm-txt">Choose any item from our store and enjoy the benefits of being a fortunate spinner, as you will receive your selected item without any cost. Also shipping charges are completely free.</p>
+                                            <p class="home-header-lg-txt">The best place to find your perfect Headphone</p>
+                                            <p class="home-header-sm-txt">High-quality Headphones at no cost at all, including the shipping completely free. Experience entertainment like never before with our Headphones. Walk, run, sing and get the most out of Headphones that'll simplify your life.</p>
                                             <div class="home-header-btn">View category</div>
                                         </div>
                                         <!---->
@@ -553,8 +553,8 @@ class Home extends HTMLElement{
                                     <div class="category-wrap" onclick="HomeToTV()">
                                         <div class="container">
                                             <p class="home-header-md-txt">TV Category</p>
-                                            <p class="home-header-lg-txt">Welcome to Wish, you lucky spinner.</p>
-                                            <p class="home-header-sm-txt">Choose any item from our store and enjoy the benefits of being a fortunate spinner, as you will receive your selected item without any cost. Also shipping charges are completely free.</p>
+                                            <p class="home-header-lg-txt">The most versatile Tv on <span class="web-name">Jumia</span> Spinner Wheel.</p>
+                                            <p class="home-header-sm-txt">Experience an entirely new world wihen you receive your Televisions from <span class="web-name">Jumia</span> Spinner Wheel. The greatest things about our displayed Tv's is that all displayed Television offer the perfect balance of functionality and fun.</p>
                                             <div class="home-header-btn">View category</div>
                                         </div>
                                         <!---->
@@ -570,7 +570,7 @@ class Home extends HTMLElement{
                     <!-- Footer container -->
                     <div class="footer-wrap">
                         <div class="container" >
-                            <p class="category-lg-txt line-height two-line">Shop with confidence on the <span class="web-name">Jumia</span> spinner wheel.</p>
+                            <p class="category-lg-txt line-height">Shop with confidence on the <span class="web-name">Jumia</span> spinner wheel.</p>
                             <div class="foot-header-btn" onclick="HomeSign()">Sign in</div>
                             
                             <!-- Scrollable popular items section-->

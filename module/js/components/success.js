@@ -11,7 +11,7 @@ class Success extends HTMLElement{
                                 <div class="list-nav-con">
                                     <div class="custom-row">
                                         <div class="list-back-btn" onclick="ItemToCheckoutF()"><img class="img-fluid" src="img/icon/back.png"></div>
-                                        <span class="help-header-txt one-line nav-left-padding">Support</span>
+                                        <span class="help-header-txt nav-left-padding">Support</span>
                                     </div>
                                 </div>
 

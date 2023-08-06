@@ -9,7 +9,7 @@ class Policy extends HTMLElement{
                         <div class="list-nav-con" >
                             <div class="custom-row">
                                 <div class="list-back-btn" id="policy-back-btn"><img class="img-fluid" src="img/icon/back.png"></div>
-                                <span class="help-header-txt one-line nav-left-padding">Terms of Use</span>
+                                <span class="help-header-txt nav-left-padding">Terms of Use</span>
                             </div>
                         </div>
 

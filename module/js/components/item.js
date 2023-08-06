@@ -94,15 +94,21 @@ customElements.define("item-page", Item);
                     </div>
                     
                     <!-- Image container -->
-                    <div class="item-img-display" id="item-img-display"><img class="item-img-fluid" src="img/${ ItemSelector[ItemIndex].image1 }" ></div>
+                    <div class="item-img-display" id="item-img-display">
+                        <img class="item-img-fluid" src="img/${ ItemSelector[ItemIndex].image1 }" >
+                        <img class="item-img-fluid" src="img/${ ItemSelector[ItemIndex].image2 }" >
+                        <img class="item-img-fluid" src="img/${ ItemSelector[ItemIndex].image3 }" >
+                        <img class="item-img-fluid" src="img/${ ItemSelector[ItemIndex].image4 }" >
+                        <img class="item-img-fluid" src="img/${ ItemSelector[ItemIndex].image5 }" >
+                    </div>
                     
                     <!-- Carousel count -->
                     <div class="item-carousel-pigination-wrap">
-                        <div class="item-carousel-pigination-con" id="item-carousel-pigination-con1"></div>
-                        <div class="item-carousel-pigination-con" id="item-carousel-pigination-con2"></div>
-                        <div class="item-carousel-pigination-con" id="item-carousel-pigination-con3"></div>
-                        <div class="item-carousel-pigination-con" id="item-carousel-pigination-con4"></div>
-                        <div class="item-carousel-pigination-con" id="item-carousel-pigination-con5"></div>
+                        <div class="item-carousel-pigination-con" id="item-carousel-pigination-con1" onclick="Carousel1()"></div>
+                        <div class="item-carousel-pigination-con" id="item-carousel-pigination-con2" onclick="Carousel2()"></div>
+                        <div class="item-carousel-pigination-con" id="item-carousel-pigination-con3" onclick="Carousel3()"></div>
+                        <div class="item-carousel-pigination-con" id="item-carousel-pigination-con4" onclick="Carousel4()"></div>
+                        <div class="item-carousel-pigination-con" id="item-carousel-pigination-con5" onclick="Carousel5()"></div>
                     </div>
                 </div>
                 
@@ -192,16 +198,31 @@ customElements.define("item-page", Item);
     
     // [Foot Item] - Horizontal mouse wheel
     const itemfootContainer = document.getElementById("item-foot-scroll-con");
-    // where "container" is the id of the container
     itemfootContainer.addEventListener("wheel", function (e) {
             if (e.deltaY > 0) {
                 itemfootContainer.scrollLeft += 100;
+            e.preventDefault();
+        }
+        else {
+            itemfootContainer.scrollLeft -= 100;
+            e.preventDefault();
+        }
+    });
+    // That will work perfectly
+
+
+    
+    // [Popular Item] - Horizontal mouse wheel
+    const itemImgDisplay = document.getElementById("item-img-display");
+    itemImgDisplay.addEventListener("wheel", function (e) {
+            if (e.deltaY > 0) {
+                itemImgDisplay.scrollLeft += 100;
             e.preventDefault();
             // prevenDefault() will help avoid worrisome 
             // inclusion of vertical scroll 
         }
         else {
-            itemfootContainer.scrollLeft -= 100;
+            itemImgDisplay.scrollLeft -= 100;
             e.preventDefault();
         }
     });
