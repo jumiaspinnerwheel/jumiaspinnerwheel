@@ -28,7 +28,7 @@ class CheckoutF extends HTMLElement{
                         <div class="container">
                             <p class="category-lg-txt line-height-zero">Add an address</p>
                             
-                            <form  method="POST" action="success.html">
+                            <form  method="POST" action="./success.html">
                                 <div class="row">
                                     <div class="col-12 col-md-10 col-lg-6 mx-auto">
                                         <label class="custom-field one">
@@ -91,7 +91,7 @@ class CheckoutF extends HTMLElement{
                                     </div>
                                     
                                     <div class="col-12 col-md-10 col-lg-6">
-                                        <input class="checkout-use-btn" type="submit" value="Use this address">
+                                        <input class="checkout-use-btn" type="submit">
                                     </div>
                                 
                                 </div>
