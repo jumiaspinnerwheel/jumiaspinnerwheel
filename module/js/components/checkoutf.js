@@ -91,7 +91,7 @@ class CheckoutF extends HTMLElement{
                                     </div>
                                     
                                     <div class="col-12 col-md-10 col-lg-6">
-                                        <input class="checkout-use-btn" type="submit" onclick="success.html">
+                                        <input class="checkout-use-btn" type="submit" onclick="document.location.href='success.html'">
                                     </div>
                                 
                                 </div>
